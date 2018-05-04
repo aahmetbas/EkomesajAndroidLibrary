@@ -309,6 +309,10 @@ new PostBalance(credential, new RequestListener<ResponseBalance>() {
     }
 }).execute();
 
+/////////////////////////////////////////
+// gelen cevaplar ve anlamları.
+/////////////////////////////////////////
+
 // Status.
 // Code ve Desc alanları yer alır. Mesajın sisteme başarılı şekilde gönderilip gönderilmediği bilgisini verir.
 // Code = 200 ve Description = OK ise mesaj sisteme başarılı şekilde ulaşmıştır. Bu mesajın iletim durumu değildir.
