@@ -29,7 +29,7 @@ public class SubmitMultiJson {
         String data     = requestSubmitMulti.convertJson();
         String result   = "";
         try {
-            URL url = new URL("http://gw.barabut.com/v1/json/syncreply/Submit");
+            URL url = new URL("http://gw.barabut.com/v1/json/syncreply/SubmitMulti");
             urlConnection = (HttpURLConnection) url.openConnection();
             urlConnection.setDoOutput(true);
             urlConnection.setDoInput(true);
